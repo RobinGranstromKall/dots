@@ -3,7 +3,7 @@
 	smudge = git-media-smudge %f
 [core]
 	editor = atom --wait
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/gk/.gitignore_global
 [push]
 	default = simple
 	followTags = true
@@ -14,3 +14,6 @@
 	diff = auto
 [credential]
 	helper = osxkeychain
+[user]
+	name = Robin Granström Käll
+	email = kallrobin92@gmail.com

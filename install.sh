@@ -1,6 +1,6 @@
 #!/bin/bash
-REPOURLHTTPS="https://github.com/bstream/dots.git"
-REPOURLGIT="git@github.com:bstream/dots.git"
+REPOURLHTTPS="https://github.com/RobinGranstromKall/dots.git"
+REPOURLGIT="git@github.com:RobinGranstromKall/dots.git"
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
