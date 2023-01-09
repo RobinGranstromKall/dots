@@ -66,10 +66,6 @@ alias glog="git log --oneline --abbrev-commit --all --graph --decorate --color"
 alias yolo="git pull && git add . && curl -s -X GET http://whatthecommit.com/index.txt | git commit --file - && git push" 
 
 # SSH stuff
-alias serverssh="ssh -p 9090 andreas@ports.andreasbrostrom.se"
-alias serversshx="ssh -X -p 9090 andreas@ports.andreasbrostrom.se"
-alias kthssh="ssh abros@u-shell.csc.kth.se"
-alias kthsshx="ssh -X abros@u-shell.csc.kth.se"
 
 # Git magic
 if [ -f ~/.git-prompt.sh ]; then
