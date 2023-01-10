@@ -16,4 +16,5 @@
 	helper = osxkeychain
 [user]
 	name = Robin Granström Käll
-	email = kallrobin92@gmail.com
+	email = ‘kallrobin92@gmail.com’
+	email = ‘kallrobin92@gmail.com’
