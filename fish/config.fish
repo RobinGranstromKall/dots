@@ -2,8 +2,8 @@
 set fish_greeting ""
 
 ### PATH ###
-set default_path /usr/bin /usr/sbin /bin /sbin /usr/local/bin ~/bin
-set homebrew /usr/local/bin /usr/local/sbin
+set default_path /usr/bin /usr/sbin /bin /sbin /usr/local/bin ~/bin /Users/kall004/Development/tools/homebrew/bin /Users/kall004/Development/tools/homebrew/Cellar
+set homebrew /usr/local/bin /usr/local/sbin /Users/kall004/Development/tools/homebrew/bin
 set -g -x PATH $homebrew $default_path $PATH
 
 ### GIT PROMPT ###
@@ -55,17 +55,6 @@ set -g -x LSCOLORS gxfxbEaEBxxEhEhBaDaCaD
 ### MAKE SUBLIME THE DEFAULT EDITOR ###
 set -g EDITOR "subl -w"
 
-
-
-
-### ALIASES SPECIFIC TO ANDREAS OS X
-
-# SSH ALIASES
-alias serverssh="ssh -p 9090 andreas@ports.andreasbrostrom.se"
-alias serversshx="ssh -X -p 9090 andreas@ports.andreasbrostrom.se"
-alias kthssh="ssh abros@u-shell.csc.kth.se"
-alias kthsshx="ssh -X abros@u-shell.csc.kth.se"
-
 # EXTRA DISK
 alias eject_mbp="echo \"Ejecting extra disk: START\"; osascript -e 'quit app \"Dropbox\"'; diskutil eject disk5; diskutil eject disk4; diskutil eject disk3; diskutil eject disk2; diskutil eject disk1; echo \"Ejecting extra disk: DONE\"";
 # Paths to your tackle
@@ -102,4 +91,24 @@ set tacklebox_path ~/.tackle ~/.tacklebox
 
 # Load Tacklebox configuration
 . ~/.tacklebox/tacklebox.fish
+
+
+# Paths to your tackle
+set tacklebox_path ~/.tackle ~/.tacklebox
+
+# Theme
+#set tacklebox_theme entropy
+
+# Which modules would you like to load? (modules can be found in ~/.tackle/modules/*)
+# Custom modules may be added to ~/.tacklebox/modules/
+# Example format: set tacklebox_modules virtualfish virtualhooks
+
+# Which plugins would you like to enable? (plugins can be found in ~/.tackle/plugins/*)
+# Custom plugins may be added to ~/.tacklebox/plugins/
+# Example format: set tacklebox_plugins python extract
+
+# Load Tacklebox configuration
+. ~/.tacklebox/tacklebox.fish
+
+
 

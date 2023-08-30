@@ -2,7 +2,7 @@ function update --description 'Runs the varius upgrade commands'
   set -l brew true
   set -l softwareupdate
   set -l installShNotRun # Do not edit this line
-  set -l dotsDir /Users/gk/Development/tools/dots
+  set -l dotsDir /Users/kall004/Development/tools/dots
   set -l useLatestLTSNode # Set this to true if you want the latest LTS of node
 
   if test -n "$installShNotRun"

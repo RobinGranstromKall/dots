@@ -3,7 +3,7 @@
 	smudge = git-media-smudge %f
 [core]
 	editor = atom --wait
-	excludesfile = /Users/gk/.gitignore_global
+	excludesfile = /Users/kall004/.gitignore_global
 [push]
 	default = simple
 	followTags = true
@@ -18,3 +18,4 @@
 	name = Robin Granström Käll
 	email = ‘kallrobin92@gmail.com’
 	email = ‘kallrobin92@gmail.com’
+	email = robin.granstromkall@dynabyte.se
